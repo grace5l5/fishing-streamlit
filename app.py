@@ -7,6 +7,8 @@ import joblib
 from streamlit_folium import st_folium, folium_static
 from PIL import Image
 
+pipeline =joblib.load("model/rff_model.joblib")
+
 # Title
 st.title('Fishing Worldwide')
 

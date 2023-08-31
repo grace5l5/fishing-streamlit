@@ -162,3 +162,5 @@ raw_data/
 .DS_Store
 
 model/
+
+.streamlit/secrets.toml
